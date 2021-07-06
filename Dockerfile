@@ -1,4 +1,4 @@
-FROM node:14
+FROM public.ecr.aws/h8j6b4m0/node14:latest
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
